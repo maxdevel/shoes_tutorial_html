@@ -1,4 +1,4 @@
-# mkbightml.rb
+# mkbightml_multilang.rb
 require 'rubygems'
 require 'bluecloth'
 

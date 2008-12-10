@@ -1,0 +1,9 @@
+Introduzione
+------------
+
+Shoes è un piccolo toolkit grafico e per la creazione di GUI per il linguaggio di programmazione Ruby scritto da [\_why](http://en.wikipedia.org/wiki/Why_the_lucky_stiff).
+
+Tutti i programmi di esempio ed i file di dati di questo tutorial possono essere scaricati da [qui](http://github.com/ashbb/shoes_tutorial/tree/master).
+
+Alcuni programmi di esempio sono tratti da NKS (Nobody Knows Shoes, Il primo manuale di Shoes. Vedere capitolo 8.)
+ 

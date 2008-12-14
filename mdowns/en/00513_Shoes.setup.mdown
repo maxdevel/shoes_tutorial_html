@@ -1,0 +1,43 @@
+Shoes.setup
+-----------
+
+If your Shoes app requires some libraries, this might be useful. See the following information.
+
+Clearing Up The Whole Shoes And RubyGems Deal <br>
+<http://hackety.org/2008/05/08/clearingUpTheWholeShoesAndRubyGemsDeal.html> <br>
+
+
+	# sample27.rb
+	Shoes.setup do
+	  gem 'something'
+	end
+	
+	Shoes.app do
+	  para require 'something'
+	end
+
+**sample27.png**
+
+![sample27.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample27.png)
+
+
+
+One more example
+----------------
+	# sample50.rb
+	Shoes.setup do
+	  gem 'sys-uname'
+	end
+	
+	require 'sys/uname'
+	include Sys
+	
+	Shoes.app :width => 300, :height => 50, :resizable => false do
+	    @platform = para Uname.sysname
+	end
+
+**sample50.png**
+
+![sample50.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample50.png)
+
+*Original snippet was written by Massimiliano in the personal mail discussion.*
